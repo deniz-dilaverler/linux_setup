@@ -5,9 +5,6 @@ if [[ ! -f apps.txt ]]; then
     echo "apps.txt file not found!"
     exit 1
 fi
-# Add docker RPM package
-dnf -y install dnf-plugins-core
-dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
 
 # Add discord RPM package
 sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm

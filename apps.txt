@@ -3,11 +3,6 @@ neovim
 rust
 cargo
 discord
-docker-ce
-docker-ce-cli 
-containerd.io 
-docker-buildx-plugin 
-docker-compose-plugin
 code
 gh
 deja-dup
