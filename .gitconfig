@@ -1,0 +1,8 @@
+[user]
+	email = dmertdilaverler@gmail.com
+	name = Deniz Mert Dilaverler
+[init]
+	defaultBranch = main
+
+[core]
+    editor = vim
